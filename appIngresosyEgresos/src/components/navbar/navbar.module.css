@@ -1,0 +1,25 @@
+.container{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 10%;
+    align-items: center;
+    box-shadow: -1px 3px 5px -1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 3px 5px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 3px 5px -1px rgba(0,0,0,0.75);
+}
+
+.containerLinks{
+    display: flex;
+    gap: 8px;
+}
+.containerLinks a{
+    font-weight: 700;
+    color: var(--text);
+    padding: 2%;
+    border-radius: 5px;
+}
+.containerLinks a:hover{
+    color: #3e9ef7;
+    border: 1px solid #3e9ef7;
+}

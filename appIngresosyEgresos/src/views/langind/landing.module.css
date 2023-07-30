@@ -1,0 +1,19 @@
+.container{
+    margin: 1% 30%;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    font-size: 40px;
+    color: var(--text);
+}
+
+.containerInput{
+    display: flex;
+    gap: 5px;
+    padding: 3%;
+}
+.buttonAdd{
+    font-weight: 900;
+}
