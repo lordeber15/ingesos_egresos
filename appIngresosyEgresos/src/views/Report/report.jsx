@@ -26,8 +26,9 @@ export default function Report() {
         <CircularProgress isIndeterminate color="green.300" />
       </div>
     );
-  else if (isError)
+  else if (isError) {
     return <div className={style.error}>Error: {error.message}</div>;
+  }
 
   return (
     <div className={style.container}>

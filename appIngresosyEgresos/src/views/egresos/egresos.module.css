@@ -17,3 +17,10 @@
 .buttonAdd{
     font-weight: 900;
 }
+.containerLabel{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--text);
+}

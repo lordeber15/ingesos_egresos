@@ -5,7 +5,7 @@ PORT = 3000;
 
 async function main() {
   try {
-    await sequelize.sync({ alter: true });
+    await sequelize.sync({ force: true });
     console.log("ya estassssss");
     app.listen(PORT, () => {
       console.log("listening on pozrt", PORT);
