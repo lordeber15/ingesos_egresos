@@ -90,7 +90,7 @@ export default function Egresos() {
     if (valueSelect == "" && valueInput == 0) {
       return toastView("Debes Seleccionar un egreso e ingresar un monto");
     } else if (valueInput == 0) {
-      return toastView("Debes egresar un monto");
+      return toastView("Debes ingresar un monto");
     } else if (valueSelect == "") {
       return toastView("Debes Seleccionar un egreso");
     }

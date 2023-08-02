@@ -133,6 +133,7 @@ export default function Landing() {
           required
         >
           <option value="Fotocopias">Fotocopias</option>
+          <option value="Impresiones">Impresiones</option>
           <option value="Formatos">Formatos</option>
           <option value="Libreria">Libreria</option>
           <option value="otros">Otros</option>
